@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url("/images/bg-chat.jpg");
+    font-family: 'Open Sans', sans-serif;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#message-container {
+    width: 80%;
+    max-width: 1200px;
+}
+
+#message-container div {
+    color: #ccc;
+    padding: 5px;
+}
+
+#message-container div:nth-child(2n) {
+    background: #fff;
+}
+
+#send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#send-container input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#send-container button {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background: #ccc;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
